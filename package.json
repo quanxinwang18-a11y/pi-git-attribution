@@ -2,7 +2,14 @@
 	"name": "pi-git-attribution",
 	"version": "0.1.1",
 	"description": "Disclose AI-assisted commits: appends a configurable trailer (default Assisted-by) to git commits made by the pi agent.",
-	"keywords": ["pi-package", "pi", "git", "attribution", "commit-trailer", "ai-disclosure"],
+	"keywords": [
+		"pi-package",
+		"pi",
+		"git",
+		"attribution",
+		"commit-trailer",
+		"ai-disclosure"
+	],
 	"license": "MIT",
 	"author": "qxwang6",
 	"repository": {
@@ -10,9 +17,17 @@
 		"url": "git+https://github.com/quanxinwang18-a11y/pi-git-attribution.git"
 	},
 	"type": "module",
-	"files": ["extensions", "src", "README.md", "LICENSE"],
+	"files": [
+		"extensions",
+		"src",
+		"README.md",
+		"CHANGELOG.md",
+		"LICENSE"
+	],
 	"pi": {
-		"extensions": ["./extensions"]
+		"extensions": [
+			"./extensions"
+		]
 	},
 	"peerDependencies": {
 		"@earendil-works/pi-coding-agent": "*"

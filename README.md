@@ -1,5 +1,7 @@
 # pi-git-attribution
 
+[![npm version](https://img.shields.io/npm/v/pi-git-attribution)](https://www.npmjs.com/package/pi-git-attribution)
+
 A [pi](https://pi.dev) package that discloses AI-assisted commits: it appends a trailer
 (default `Assisted-by: <you>`) to every `git commit` the agent runs through the bash tool.
 
@@ -15,9 +17,9 @@ package (or disable it in `pi config`) and the behavior is gone.
 ## Install
 
 ```bash
-pi install /absolute/path/to/pi-git-attribution   # local checkout
-pi install git:github.com/<user>/pi-git-attribution@v1   # git
-pi install npm:pi-git-attribution                 # npm
+pi install npm:pi-git-attribution                        # npm (recommended)
+pi install git:github.com/quanxinwang18-a11y/pi-git-attribution@v0.1.1   # pinned git tag
+pi install /absolute/path/to/pi-git-attribution          # local checkout
 ```
 
 Then configure a value — without one the extension stays inert on purpose, so a shared
@@ -82,5 +84,5 @@ attribution trailers outright — keep the opt-out handy when contributing to th
 ## Uninstall
 
 ```bash
-pi remove /absolute/path/to/pi-git-attribution   # or: rm ~/.pi/agent/extensions/git-attribution.ts
+pi remove npm:pi-git-attribution
 ```
