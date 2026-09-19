@@ -1,6 +1,6 @@
 {
 	"name": "pi-git-attribution",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Disclose AI-assisted commits: appends a configurable trailer (default Assisted-by) to git commits made by the pi agent.",
 	"keywords": ["pi-package", "pi", "git", "attribution", "commit-trailer", "ai-disclosure"],
 	"license": "MIT",
@@ -16,5 +16,13 @@
 	},
 	"peerDependencies": {
 		"@earendil-works/pi-coding-agent": "*"
+	},
+	"peerDependenciesMeta": {
+		"@earendil-works/pi-coding-agent": {
+			"optional": true
+		}
+	},
+	"engines": {
+		"node": ">=18"
 	}
 }
